@@ -1,0 +1,1251 @@
+Date: Thu, 26 Feb 2026 22:26:16 +0000 (UTC)
+Message-ID: <1217275081.41.1772144776044@9ae311f77429>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_40_1791747685.1772144776044"
+
+------=_Part_40_1791747685.1772144776044
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>DashLX Web Component Documentation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>DashLX Web Component Documentation</h1>
+    <div class=3D"Section1">
+        <h1 local-id=3D"0d747c16-206e-4b0d-8ea2-c3602babd900" id=3D"DashLXW=
+ebComponentDocumentation-DashLXEmbeddedWebComponent">DashLX Embedded Web Co=
+mponent</h1>
+<p local-id=3D"a041836c-ee2a-4b35-9cd7-d9fff24f0571">Enabling seamless onbo=
+arding of new connected users from your application/site.</p>
+<h2 local-id=3D"601ad667-5cce-4302-b4d2-c0c154a5e4c3" id=3D"DashLXWebCompon=
+entDocumentation-Overview">Overview</h2>
+<p local-id=3D"21a8087b-6658-49e3-9ee2-9634ab7c0ee7">The web component requ=
+ires a session ID in order to start. A backend service must be set up, capa=
+ble of starting a session with the DashLX <strong>begin-session</strong> en=
+dpoint and returning the session ID to the frontend. Once the session ID ha=
+s been returned to the frontend, it will be passed to the web component thr=
+ough a custom Javascript event or as an HTML element attribute. The user wi=
+ll eventually be sent to the redirect_uri provided after upon exiting the w=
+eb component.</p>
+<h2 local-id=3D"f67becb3-fea6-4986-95ba-f31a5ee4a581" id=3D"DashLXWebCompon=
+entDocumentation-ApiEnvironments">Api Environments</h2>
+<p local-id=3D"8e27487b-b926-4f32-89de-746991f34032">Use the appropriate ur=
+l base for the environment you are testing in.</p>
+<p local-id=3D"44202317-7ec6-4493-9535-2bb1a41c4d81" style=3D"margin-left: =
+30.0px;">dev - <a class=3D"external-link" href=3D"https://api.dashlx.com/ia=
+aa/begin-session**." rel=3D"nofollow"><strong>https://api.dev.dashlx.com/ia=
+aa</strong></a></p>
+<p local-id=3D"8c33fa23-b702-4542-9aac-a1f4e7c4805c" style=3D"margin-left: =
+30.0px;">staging - <a class=3D"external-link" href=3D"https://api.dashlx.co=
+m/iaaa/begin-session**." rel=3D"nofollow"><strong>https://api.staging.dashl=
+x.com/iaaa</strong></a></p>
+<p local-id=3D"8b762d2e-b2d5-4dbd-b702-c6141ef48b38" style=3D"margin-left: =
+30.0px;">prod - <a class=3D"external-link" href=3D"https://api.dashlx.com/i=
+aaa/begin-session**." rel=3D"nofollow"><strong>https://api.dashlx.com/iaaa<=
+/strong></a></p>
+<h2 local-id=3D"e8220a6b-fac0-4f8d-9ff4-b0b415342ae5" id=3D"DashLXWebCompon=
+entDocumentation-WebComponentOrigin">Web Component Origin</h2>
+<p local-id=3D"96f7b261-3098-4d4f-a91e-b35d6e2e2ff8" style=3D"margin-left: =
+30.0px;">dev - <a class=3D"external-link" href=3D"https://cobranding.dev.da=
+shlx.com/webcomp/assets/dashlx-cobrand.js" rel=3D"nofollow"><strong>https:/=
+/cobranding.dev.dashlx.com/webcomp/assets/dashlx-cobrand.js</strong></a></p=
+>
+<p local-id=3D"f4ce3822-b232-4416-b611-ab113dc205b4" style=3D"margin-left: =
+30.0px;">staging - <a class=3D"external-link" href=3D"https://cobranding.de=
+v.dashlx.com/webcomp/assets/dashlx-cobrand.js" rel=3D"nofollow"><strong>htt=
+ps://cobranding.staging.dashlx.com/webcomp/assets/dashlx-cobrand.js</strong=
+></a></p>
+<p local-id=3D"340ae2e0-6406-4bae-9e2c-8c34851d68c5" style=3D"margin-left: =
+30.0px;">prod - <a class=3D"external-link" href=3D"https://cobranding.dev.d=
+ashlx.com/webcomp/assets/dashlx-cobrand.js" rel=3D"nofollow"><strong>https:=
+//cobranding.dashlx.com/webcomp/assets/dashlx-cobrand.js</strong></a></p>
+<h2 local-id=3D"6f2336e5-52c6-48f8-89de-5f710edbbaee" id=3D"DashLXWebCompon=
+entDocumentation-GettingStarted:BackendSetup">Getting Started: Backend Setu=
+p</h2>
+<p local-id=3D"09855ca5-453d-4741-9fe5-9722115b22c1">In order to use the we=
+b component, a session must be started by hitting the DashLX <strong>begin-=
+session</strong> endpoint. For security reasons the web component session s=
+hould be started by a backend service in order to protect sensitive credent=
+ials like client ID, token, and user email. Your <strong>client ID</strong>=
+, <strong>token</strong>, and <strong>cohort ID</strong> will be provided b=
+y DashLX.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"35de7913-2440-448b-8a3e-9f1301b5fd3b">The user email provide=
+d to begin-session should be decoded on the backend using something like an=
+ access token in order to prevent malicious actors from starting sessions u=
+sing emails addresses of non authenticated users.</p>
+</div>
+</div>
+<h3 local-id=3D"51b4d345-04ab-4705-95d7-b26e9ba386db" id=3D"DashLXWebCompon=
+entDocumentation-Step1:"><span class=3D"inline-comment-marker" data-ref=3D"=
+859a6eba-0e02-4d55-9288-dfacfc7b1ec4">Step 1:</span></h3>
+<p local-id=3D"b5a32bbd-4e14-406e-aecb-ecaa37c064aa">Create a backend funct=
+ion that is capable of starting the session. To start a session you will ne=
+ed to know your unique <strong>client ID</strong>, <strong>secret</strong>,=
+ <strong>cohort ID</strong>, <strong>user email</strong>, and <strong>redir=
+ect uri</strong>. Use the email address for the user who is currently logge=
+d into your application. This email address will become their primary ident=
+ifier within DashLX. Users who return to this web component through your ap=
+plication will be able to manage synced devices, data sharing permissions, =
+and other personal information. To start the session, make a POST request t=
+o this endpoint: <a class=3D"external-link" href=3D"https://api.dashlx.com/=
+iaaa/begin-session**." rel=3D"nofollow"><strong>https://api.dev.dashlx.com/=
+iaaa/begin-session</strong></a><strong> (Ensure that the appropriate URL is=
+ used for the intended environment)</strong></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"8ed0bd77-fa68-44cd-b04b-8e9c20d68239"><strong>DashLX user_id=
+ in place of email address:</strong></p>
+<p local-id=3D"f6291340-3847-42ce-9a4f-28742911aa68">If the current user=E2=
+=80=99s DashLX user_id (UUID) is known, you may optionally pass that UUID a=
+s <code>sub</code> in the body of the begin-session request, in place of <c=
+ode>email</code></p>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">// Javasc=
+ript example
+async function beginSession(userEmail: string, clientId: string, secret: st=
+ring, cohortId: string, redirectUri: string ){
+  let response: any =3D await fetch(`https://api.dev.dashlx.com/iaaa/begin-=
+session`, {
+      method: 'POST',
+      headers: {
+        Authorization: `Basic ${btoa(clientId + ":" + secret)}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email: userEmail,
+        token: secret,
+        cohort: cohortId,
+        redirect_uri: redirectUri
+      })
+    })
+=E2=80=8B
+    let body: any =3D await response.json()
+    return body.session_id;
+}</pre>
+</div>
+</div>
+<p local-id=3D"0b6b68b6-e61e-4455-83a3-a8e654a27ff6">=E2=80=8B</p>
+<h4 local-id=3D"978ddda7-cfc6-464c-98d3-0afde5df8472" id=3D"DashLXWebCompon=
+entDocumentation-BeginSessionEndpoint">Begin Session Endpoint</h4>
+<p local-id=3D"f92360c4-b0d8-442f-b035-32be87ed9760">=E2=80=8B<strong>Metho=
+d: </strong>POST<br><strong>Authentication Method: </strong>Basic</p>
+<ul local-id=3D"611cbaa3-1e2c-49e0-a5f8-e07d530a9ef2">
+<li local-id=3D"895494de-80e3-4bbc-8eba-c161779f1644">
+<p local-id=3D"12ed062b-f0e7-4310-8d35-33793c124e05">The Authorization head=
+er is required and should be equal to a Base64 encoded string of the format=
+: <strong>"clientId:secret"</strong></p></li>
+</ul>
+<p local-id=3D"302ac16e-5faa-4784-b2f2-1077c17c7dda">Request Body</p>
+<ul local-id=3D"93464fdd-df57-4bc9-bb42-ad95bf5a063f">
+<li local-id=3D"d8076264-c9b8-4d4c-9a9f-423d32d09e83">
+<p local-id=3D"3366ea35-5db4-464a-b366-2e5d112a972b">email: <strong>string<=
+/strong> - email of the user in which you want to begin a session for. For =
+security reasons, user email should be fetched/decoded on the backend using=
+ something like an id token to ensure that session creation can only occur =
+for the currently logged in user.</p>
+<ul local-id=3D"1904e7ec-c409-4835-ba9a-e1bc6878bc8b">
+<li local-id=3D"d8076264-c9b8-4d4c-9a9f-423d32d09e83">
+<p local-id=3D"2b57ea3c-3fa6-4e43-b606-ac041e154cdf"><em>sub: <strong>strin=
+g</strong> - DashLX user_id which can <strong><u>optionally be used in plac=
+e of email</u></strong></em></p></li>
+</ul></li>
+<li local-id=3D"6a021323-41ad-46bf-bcaf-5c4fcc01fb9e">
+<p local-id=3D"678e143f-92e9-4baa-a3ab-b44058b17c2c">redirect_uri: <strong>=
+string</strong> - a full url that will be used to redirect the user when th=
+ey exit the web component.</p></li>
+<li local-id=3D"339ecd84-d892-4485-932d-b9ab4c01487c">
+<p local-id=3D"ff7a942d-8018-4e02-a1a8-af9bb96e99ba">token: <strong>string<=
+/strong> - a unique token provided to you by DashLX. Used to initiate the w=
+eb component session.=E2=80=8B This is the secret that should have been pro=
+vided to you.</p></li>
+<li local-id=3D"1e826676-c906-48ce-b39f-07f2d468613c">
+<p local-id=3D"ba1d24d6-a516-486a-a57d-53829b10d307">cohort: <strong>string=
+ </strong>- your cohort ID.</p></li>
+</ul>
+<p local-id=3D"f18f4c32-c47f-4c6b-be1e-f98c880760a9"></p>
+<p local-id=3D"19bfda88-6f86-42d9-9bc0-c86ff7149139">Return</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  'session_id': "86ab8355e6c74e9eb24cb64bb1f06eab", // id of the newly crea=
+ted session
+  'expires_at': "2023-10-20T19:11:39.303938", // UTC timestamp respresentin=
+g expiration date of session
+  'status': "" // The status of the session. Used internally by the web com=
+ponent to manage state.
+}</pre>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"6f43d319-db85-4a97-823b-490661893fcc">=E2=80=8BNote: You are=
+ responsible for exposing an endpoint to your website that is capable of st=
+arting the session and retrieving a session id to pass to the web component=
+.</p>
+</div>
+</div>
+<h3 local-id=3D"060bb86a-eb2d-411f-b0b0-d521cf7d5863" id=3D"DashLXWebCompon=
+entDocumentation-Step2:">Step 2:</h3>
+<p local-id=3D"ed4afc9e-ec6a-43f6-9452-76e530a21b39">Once the session has b=
+een started by the backend, return the session ID to your front end to begi=
+n using the web component. Sessions last for 15 minutes. Sessions are refre=
+shed whenever a user performs a management operation like editing personal =
+information, managing their devices, or changing their data sharing permiss=
+ions. If a user's session expires the user will be taken to the <strong>red=
+irect_uri</strong> specified in the session and upon page load, the web com=
+ponent will emit a <strong>dashlx-session-expired</strong> event indicating=
+ the user session expired.</p>
+<h2 local-id=3D"9e7d1421-3f33-4179-aaf5-1bdac1f82f2a" id=3D"DashLXWebCompon=
+entDocumentation-GettingStarted:FrontendSetup=E2=80=8B">Getting Started: Fr=
+ontend Setup=E2=80=8B</h2>
+<h3 local-id=3D"1ff79a7e-cf7b-4cb6-8f11-086282eee03e" id=3D"DashLXWebCompon=
+entDocumentation-Step1:.1">Step 1:</h3>
+<p local-id=3D"76315030-5ce9-43d6-8276-0484edef00e6">=E2=80=8BImport the we=
+b component by including a script tag somewhere on the web page where you w=
+ill be using the component. <br>
+=E2=80=8B</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;scr=
+ipt type=3D"module" crossorigin=3D"anonymous" src=3D"https://cobranding.dev=
+.dashlx.com/webcomp/assets/dashlx-cobrand.js"&gt;&lt;/script&gt;</pre>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-war=
+ning">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-error confluence-inform=
+ation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"46ee2b6d-9025-4b4b-bbd5-39dfd184ca46"><strong>type=3D=E2=80=
+=9Dmodule=E2=80=9D </strong>is a requirement to ensure there are no variabl=
+e naming conflicts between the web component and your website's Javascript.=
+</p>
+</div>
+</div>
+<h3 local-id=3D"02cc112f-c02b-4891-a9c5-068ad3130a8a" id=3D"DashLXWebCompon=
+entDocumentation-Step2:.1">Step 2:</h3>
+<p local-id=3D"7b5c0977-bdf3-4975-946d-36788a50f6e3">Declare the web compon=
+ent in the HTML with necessary configuration attributes. Attributes can be =
+set and updated up until the <strong>dashlx-activate-component</strong> eve=
+nt is emitted by the client application. The web component does not require=
+ any attributes by default. The session ID attribute is required conditiona=
+lly depending on how the web component is activated. See <strong>Step 3</st=
+rong>.<br>
+=E2=80=8B</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;das=
+hlx-cobrand
+    secondaryColor=3D"#334455"
+    openVendorLinksInNewTab=3D"openVendorLinksInNewTab"
+&gt;
+&lt;/dashlx-cobrand&gt;</pre>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"fe177a4b-7971-4483-8875-ed80ae23f58f">=E2=80=8B<em>See the C=
+omponent Attributes section for a complete list of configuration options.</=
+em></p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"cb578aae-de35-4f74-8349-a4c2ff690124"><em>Web component bool=
+ean attributes follow the html spec. A missing attribute is false, any othe=
+r value is considered true.</em></p>
+</div>
+</div>
+<h3 local-id=3D"6787e21c-db7d-4758-8176-6edd4a31bc2b" id=3D"DashLXWebCompon=
+entDocumentation-Step3:StartingtheComponent:">Step 3: Starting the Componen=
+t:</h3>
+<p local-id=3D"5142f9ec-7d41-4a15-afc8-6000fa0a8a61">The easiest way to act=
+ivate the web component is to emit the <strong>dashlx-activate-component</s=
+trong> custom event with <strong>sessionId</strong> included in the event d=
+etail like this:<br>
+=E2=80=8B</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">documen=
+t.dispatchEvent(new CustomEvent("dashlx-activate-component", {detail: {sess=
+ionId: '&lt;YOUR SESSION ID&gt;'}}));</pre>
+</div>
+</div>
+<p local-id=3D"f7786322-7612-435a-a9f0-4767cfd29e95">=E2=80=8B<br>
+Alternatively, you can include the <strong>sessionId</strong> directly on t=
+he dashlx-cobrand element and emit the <strong>dashlx-activate-component</s=
+trong> event to start the web component.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">documen=
+t.dispatchEvent(new Event("dashlx-activate-component"));
+=E2=80=8B
+&lt;dashlx-cobrand
+    sessionId=3D"&lt;YOUR SESSION ID&gt;"
+    secondaryColor=3D"#334455"
+    openVendorLinksInNewTab=3D"openVendorLinksInNewTab"
+&gt;
+&lt;/dashlx-cobrand&gt;
+=E2=80=8B</pre>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"b146c9fe-f5a3-4a57-b73f-f3303f4f026c">=E2=80=8BThe web compo=
+nent will fail to initialize if the <strong>sessionId</strong> attribute is=
+ not set <strong>before</strong> the <strong>dashlx-activate-component</str=
+ong> event is emitted. If you are using a reactive framework and setting se=
+ssionId through a template rather than a script, you may need to set a time=
+out to delay emitting the dashlx-activate-component event in order to give =
+your template time to rerender/update the <strong>&lt;daslx-cobrand&gt;</st=
+rong> element with the sessionId.</p>
+</div>
+</div>
+<h3 local-id=3D"dbce84a5-e5f7-4c54-affa-00c609b5cd04" id=3D"DashLXWebCompon=
+entDocumentation-OtherNotes">Other Notes</h3>
+<p local-id=3D"adbaa8e6-5fb4-498b-8a86-2468883c8c16">Once the component has=
+ received the <strong>dashlx-activate-component</strong> event, the compone=
+nt will takeover the screen using fixed positioning so ensure that the web =
+component's immediate parent does not alter the web components <strong>cont=
+aining block</strong> or else the web component will not be positioned corr=
+ectly.</p>
+<h1 local-id=3D"17229209-2350-4051-a31c-4dd1b1adc7c9" id=3D"DashLXWebCompon=
+entDocumentation-Index">Index</h1>
+<h2 local-id=3D"8c766984-c9e7-46cb-95fe-4963a2edee10" id=3D"DashLXWebCompon=
+entDocumentation-ComponentAttributes">Component Attributes</h2>
+<h3 local-id=3D"944d61a9-9813-4af7-b2b3-85ef4a230c5d" id=3D"DashLXWebCompon=
+entDocumentation-sessionId:string">sessionId: <strong>string</strong></h3>
+<p local-id=3D"1f56a273-7ec6-4248-89f3-5ebdeae11d21">The sessionId returned=
+ from <a class=3D"external-link" href=3D"https://api.dashlx.com/iaaa/begin-=
+session**." rel=3D"nofollow"><strong>https://api.dev.dashlx.com/iaaa/begin-=
+session.</strong></a> Used to authorize requests necessary for the web comp=
+onent to function.</p>
+<h3 local-id=3D"63850b50-6f70-4d73-8a2d-44f1f760b097" id=3D"DashLXWebCompon=
+entDocumentation-redirectUri:string">redirectUri: string</h3>
+<p local-id=3D"ca7673f4-ac63-4ad5-9bda-9dabd4e79d45">A URL to define where =
+the user is redirected to upon closing the web component explicitly, if the=
+ session expires, or they opt-out of the cohort from within the web compone=
+nt.</p>
+<p local-id=3D"7fe02fac-bf41-4296-bd59-d60d51e7a182">Dynamic Usage:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">documen=
+t.querySelector('dashlx-cobrand').setAttribute('redirectUri', 'https://mydo=
+main.com/thanksforjoining.html')</pre>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"2db4d7a5-b614-4ca9-bf57-3e6b834e7b9d">This attribute can be =
+changed dynamically like any other standard HTML element attribute (eg usin=
+g javascript). This enables you to have the web component as a part of mult=
+iple distinct user journeys. Eg userA starts from PageA and is directed to =
+the web component, where you set the redirectUri to UriA; userB starts from=
+ PageB and is directed to the web component, where you set the redrectUri t=
+o UriB.</p>
+<p local-id=3D"2622fadd-970f-4c0b-9a44-77e70b3b92d5">Note: you can also con=
+tinue to modify the redirectUri while the user is actively in the web compo=
+nent session. For example, you may listen for a particular browser event (s=
+ee below) and update the redirectUri in response to that event being emitte=
+d.</p>
+</div>
+</div>
+<h3 local-id=3D"bd601b45-8dfe-4dc9-a26b-07051c4f6cbe" id=3D"DashLXWebCompon=
+entDocumentation-secondaryColor:string">secondaryColor: <strong>string</str=
+ong></h3>
+<p local-id=3D"b3f69c77-31a7-4189-887a-1d834779c323">=E2=80=8BA hex color c=
+ode, including the #, used to style action buttons, input accents, loading =
+animations, and other elements. Example: <strong>#112233</strong></p>
+<h3 local-id=3D"89b36f73-f599-43a3-97e5-8b52c6db04fa" id=3D"DashLXWebCompon=
+entDocumentation-mobileInts:boolean">mobileInts: <strong>boolean</strong></=
+h3>
+<p local-id=3D"1e958ea0-8caf-465c-ab2d-8bf0330bb7a4">Specifies whether or n=
+ot to show mobile only device integrations. If enabled, vendor integrations=
+ like Apple will appear as an option for device linking. This will also ins=
+ert an extra page directly after the acknowledgement page giving users inst=
+ructions to link their apple device by downloading the DashLX app.</p>
+<h3 local-id=3D"6197bd35-2785-4ee8-8ad0-0f476870d682" id=3D"DashLXWebCompon=
+entDocumentation-autoFillFields:string">autoFillFields: <strong>string</str=
+ong></h3>
+<p local-id=3D"0e100cff-fc5b-4a53-883b-40fe0571ab82">A serialized JSON obje=
+ct containing key value pairs of profile form fields that will be pre-popul=
+ated for the user. Keys may be used as needed and not all keys are required=
+ to use the auto fill functionality. Provide only key value pairs that are =
+known.</p>
+<p local-id=3D"d7f2493b-eaa9-493b-9e69-046d91aee8c6">Possible keys:</p>
+<p local-id=3D"26ffd85d-1c9e-499a-9b47-11d6d3bfc148" style=3D"margin-left: =
+30.0px;"><strong>givenName</strong> - user's first name</p>
+<p local-id=3D"4203299f-8069-4f39-880b-b8a7a2724d11" style=3D"margin-left: =
+30.0px;"><strong>familyName</strong> - user's last name</p>
+<p local-id=3D"3d078743-3328-4f0d-9205-7b6f9054c8ed" style=3D"margin-left: =
+30.0px;"><strong>birthdate</strong> - =E2=80=9CYYYY-MM-DD=E2=80=9D</p>
+<p local-id=3D"dad9f363-d07d-4cb6-ad8a-7f02fbc925f7" style=3D"margin-left: =
+30.0px;"><strong>gender</strong> - m, f, o, or n. <strong>o</strong> repres=
+ents =E2=80=9CI am not represented=E2=80=9D, <strong>n</strong> represents =
+=E2=80=9CPrefer not to say=E2=80=9D.</p>
+<p local-id=3D"541184c7-be2d-4684-bbee-1ba65c5f9d96" style=3D"margin-left: =
+30.0px;"><strong>preferredUnits</strong> - =E2=80=9Cmetric=E2=80=9D or =E2=
+=80=9Cimperial=E2=80=9D</p>
+<p local-id=3D"df46a586-1f01-4481-bca9-20c56afe7f22" style=3D"margin-left: =
+30.0px;"><strong>height</strong> - User height in meters</p>
+<p local-id=3D"1620ffea-07a7-4cc1-b588-785282cc7b55" style=3D"margin-left: =
+30.0px;"><strong>weight</strong> - User weight in kg</p>
+<p local-id=3D"6ee42a30-7579-4526-a8ea-1babb955f903" style=3D"margin-left: =
+30.0px;"><strong>phoneNumber</strong> - user's phone number as a string inc=
+luding country code (with <code>+</code>) and area code.</p>
+<p local-id=3D"d3eca588-8c46-4176-a8c8-1a8467853cf5">Example containing all=
+ possible form fields to auto populate.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">'{
+  "givenName":"Bobby",=20
+  "familyName": "Lee",=20
+  "birthdate":"1950-01-03",=20
+  "gender": "m",=20
+  "preferredUnits": "metric",=20
+  "height": 2,=20
+  "weight": 100,=20
+  "phoneNumber": =E2=80=9C+14801112222=E2=80=9D
+}'</pre>
+</div>
+</div>
+<h3 local-id=3D"1aa354e2-612e-4f39-a731-e5a38c6de4dd" id=3D"DashLXWebCompon=
+entDocumentation-openVendorLinksInNewTab:boolean">openVendorLinksInNewTab: =
+<strong>boolean</strong></h3>
+<p local-id=3D"1234883c-081b-4476-9243-4b8efedbe61a">Specifies whether or n=
+ot to open device linking urls in a new tab or in the current window.<br>
+=E2=80=8B<br>
+If <strong>openVendorLinksInNewTab</strong> is <strong>omitted</strong> fro=
+m the component, vendor device linking urls will be opened in the current t=
+ab and the device vendor will redirect the user back to your website using =
+the <strong>redirect_uri</strong> specified when starting the session. The =
+web component will then check its cache and reopen itself on the your page =
+to complete the device linking process.<br>
+=E2=80=8B<br>
+If <strong>openVendorLinksInNewTab</strong> is <strong>included</strong> on=
+ the component, vendor linking will be completed in a separate tab and the =
+current page will not be redirected. Note that this is the only way to link=
+ devices if the web component is nested in an iframe. Vendors do not allow =
+device linking to occur in web pages embedded in an iframe.</p>
+<h3 local-id=3D"1030f7dd-c498-4ed1-b932-f91af54c0a8a" id=3D"DashLXWebCompon=
+entDocumentation-rootElementStyles:string"><strong>rootElementStyles: strin=
+g</strong></h3>
+<p local-id=3D"b1435849-c63b-40ce-ba29-5dc0db9c9066"><strong>Default Value:=
+</strong> <code>"position:fixed; left: 0px; top: 0px; height:100%; width: 1=
+00%; overflow: auto; z-index: 50; overscroll-behavior: auto;"</code></p>
+<p local-id=3D"550074c4-7857-4a9d-9479-3831ae7a5ca6">Allows styling of the =
+root element div within the dashlx-cobrand element. rootElementStyles shoul=
+d start with the css property name and the string must end with a semicolon=
+. Passing any value for <strong>rootElementStyles</strong> will override th=
+e default value. There are 3 style properties that must be explicitly overw=
+ritten when using rootElementStyles: position, color, background-color. All=
+ other styles are replaced with the value of rootElementStyles.</p>
+<p local-id=3D"11df1f9e-047b-48c7-b3a1-f1b5a394e3c9">Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;das=
+hlx-cobrand rootElementStyles=3D"position:relative; height: 400px;"&gt;
+  #shadow-root
+  &lt;div style=3D"position:relative; height: 400px;"&gt;
+    ...
+  &lt;/div&gt;
+&lt;/dashlx-cobrand&gt;</pre>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"96dc6061-6513-46bb-8503-2c7412d4eab6">Do not use static posi=
+tioning when setting rootElementStyles or else the web component header wil=
+l not be positioned correctly.</p>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"54a0deab-8424-4fcc-83b5-bdb02f42854c"><em>Web component <str=
+ong>boolean</strong> attributes follow the html spec. A missing attribute i=
+s false, any other value is considered true.</em></p>
+</div>
+</div>
+<h3 local-id=3D"12579cac-4152-404d-924b-8eda1b9de718" id=3D"DashLXWebCompon=
+entDocumentation-hidePhoneNumber:boolean"><strong>hidePhoneNumber</strong>:=
+ <strong>boolean</strong></h3>
+<p local-id=3D"d599b627-fc50-4fb4-bfaf-28f13ff69697"><strong>Default Value:=
+</strong> false</p>
+<p local-id=3D"92a22529-9ce6-41bf-a90b-2c868a509ee8">If this attribute is t=
+rue, the phone number input field will be hidden from the new user onboardi=
+ng form and the profile page form. The accompanying checkbox for sms will a=
+lso be hidden, assuming sms communications are enabled on the cohort.</p>
+<h3 local-id=3D"cc443b66-7276-4aa5-83f5-edb2db030b7e" id=3D"DashLXWebCompon=
+entDocumentation-preferredUnits:=E2=80=9Cmetric=E2=80=9D|=E2=80=9Cimperial=
+=E2=80=9D|undefined"><strong>preferredUnits: =E2=80=9Cmetric=E2=80=9D | =E2=
+=80=9Cimperial=E2=80=9D | undefined</strong></h3>
+<p local-id=3D"c1ed02da-d5bf-43f3-ac1e-fd7a63bf63e4"><strong>Default Value:=
+</strong> undefined</p>
+<p local-id=3D"ba4801a3-0369-4cd5-855f-2198aa349d31">If this attribute is d=
+efined, the preferred units input field will be hidden from the new user on=
+boarding form and the profile page form. The weight and height inputs will =
+use the units defined by the attribute and the user will not be able to cha=
+nge preferred units themselves. If undefined, the preferred units select el=
+ement will show on the new user form and edit profile form pages allowing t=
+he user to change their preferred units on their own.</p>
+<h3 local-id=3D"38e0f3f4-47ce-4c67-a73d-5e7b026580ea" id=3D"DashLXWebCompon=
+entDocumentation-tenantLogoFillMode:=E2=80=9Ccenter=E2=80=9D|=E2=80=9Cfill=
+=E2=80=9D|null"><strong>tenantLogoFillMode: =E2=80=9Ccenter=E2=80=9D | =E2=
+=80=9Cfill=E2=80=9D | null</strong></h3>
+<p local-id=3D"efb8ca7f-4ea8-4888-8395-ca489cd200c1"><strong>Default Value:=
+</strong> center</p>
+<p local-id=3D"7a343884-4a0d-48b6-b11c-2f6f0177a72b">If =E2=80=98center=E2=
+=80=99, the tenant logo is centered inside of a circular div whose backgrou=
+nd is set to the secondary color of the web component. If =E2=80=98fill=E2=
+=80=99, the logo fills the circular div leaving no padding on the sides. Th=
+e logo is essentially cropped to a circle. Use center mode if the tenant lo=
+go is a simple logo with no bg with transparency.</p>
+<h3 local-id=3D"9d51263e-9cac-48df-b59c-897d5fa29593" id=3D"DashLXWebCompon=
+entDocumentation-datePickerInputOrder:Enum"><strong>datePickerInputOrder: E=
+num</strong></h3>
+<p local-id=3D"036e4774-4467-4dc1-b126-70b4b34ce56d">Possible values:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">'MM-DD-=
+YYYY'
+'MM-YYYY-DD'
+'DD-MM-YYYY'
+'DD-YYYY-MM'
+'YYYY-MM-DD'
+'YYYY-DD-MM'</pre>
+</div>
+</div>
+<p local-id=3D"62ec2800-151e-44f2-92a0-094910bf2758"><strong>Default Value:=
+</strong> 'MM-DD-YYYY'</p>
+<p local-id=3D"263218ee-6c94-464d-9532-68682c04c879">Changes the order of t=
+he date picker on the onboarding and profile page forms.</p>
+<h3 local-id=3D"39953ee1-7222-4419-98be-7ac2d1443d2d" id=3D"DashLXWebCompon=
+entDocumentation-ackPageVersion:=E2=80=9CReadAndAgree=E2=80=9D|=E2=80=9CCli=
+ckAndAgree=E2=80=9D"><strong>ackPageVersion: =E2=80=9CReadAndAgree=E2=80=9D=
+ | =E2=80=9CClickAndAgree=E2=80=9D</strong></h3>
+<p local-id=3D"8e2c2785-4755-4fde-aaa7-c156b82628bc"><strong>Default Value:=
+</strong> ReadAndAgree</p>
+<p local-id=3D"9c53ddc2-1e06-49ac-a349-6fe20f508bd5">If =E2=80=9CReadAndAgr=
+ee=E2=80=9D the acknowledgement page will contain bullet points and a next =
+button. Does not require user interaction to continue.</p>
+<p local-id=3D"08152f10-ccbc-496e-8b9d-fa74eea6fd58">If =E2=80=9CClickAndAg=
+ree=E2=80=9D the acknowledgement page will contain checkboxes the user has =
+to select to proceed.</p>
+<h3 local-id=3D"30f60f069ba3" id=3D"DashLXWebComponentDocumentation-languag=
+eCode:=E2=80=9Cen=E2=80=9D|=E2=80=9Cde=E2=80=9D|=E2=80=9Cfr=E2=80=9D"><stro=
+ng>languageCode: =E2=80=9Cen=E2=80=9D | =E2=80=9Cde=E2=80=9D | =E2=80=9Cfr=
+=E2=80=9D</strong></h3>
+<p local-id=3D"b8732c204516"><strong>Default Value:</strong> en</p>
+<p local-id=3D"ecf1c9bd2b62">Set the value of languageCode to change the la=
+nguage displayed in the cobranding component. The component currently suppo=
+rts English, German, and French.</p>
+<h2 local-id=3D"ccfce46d-23cc-4237-a1b0-41a9fb85c33c" id=3D"DashLXWebCompon=
+entDocumentation-DashLXWebComponentEvents">DashLX Web Component Events</h2>
+<p local-id=3D"2fa6f1c6-9572-4be1-805b-26c8a61c3a79">All events are dispatc=
+hed on the <code>document</code> object and can be accessed using <code>add=
+EventListener</code>.</p>
+<hr local-id=3D"8688acc5-4054-4b7c-8480-c3bee4d2d5b2">
+<h3 local-id=3D"24a98390-f937-4b2d-9f22-db89c5edb6df" id=3D"DashLXWebCompon=
+entDocumentation-Lifecycle&amp;SystemEvents">Lifecycle &amp; System Events<=
+/h3>
+<p local-id=3D"de1c325b-9ad2-40e3-a15d-c799ad87fc3a"><code>dashlx-cobrand-s=
+cript-loaded</code><br><strong>Emitted by</strong>: The component script<br=
+><strong>Purpose</strong>: Indicates the script has finished loading and th=
+e component is ready to receive the <code>dashlx-activate-component</code> =
+event.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">document.=
+addEventListener('dashlx-cobrand-script-loaded', () =3D&gt; { console.log("=
+Component script is loaded and ready."); }); </pre>
+</div>
+</div>
+<p local-id=3D"b7fd3ae8-121c-4576-a274-7e3317c68b13"></p>
+<p local-id=3D"52757da6-27e2-43f2-9952-6c37b036358b"><code>dashlx-activate-=
+component</code><br><strong>Emitted by</strong>: Your host web page (outsid=
+e the component)<br><strong>Purpose</strong>: Starts the web component flow=
+.</p>
+<p local-id=3D"df6be3ae-c143-4d85-af27-03351bad4788"><strong>Description</s=
+trong>: This is the required trigger to launch the component. Provide a val=
+id <code>sessionId</code> via the <code>detail</code> object to initialize =
+the flow.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">document.=
+dispatchEvent(new CustomEvent("dashlx-activate-component", { detail: { sess=
+ionId: "&lt;YOUR SESSION ID&gt;" } })); </pre>
+</div>
+</div>
+<p local-id=3D"69ce1919-9227-4e55-bbcd-fa017d823a4f"></p>
+<p local-id=3D"31975f2d-ec6d-4b16-931c-102caefdb88e"><code>dashlx-component=
+-opened</code><br><strong>Emitted by</strong>: The component<br><strong>Pur=
+pose</strong>: Indicates the component is now rendered and visible on the s=
+creen.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">document.=
+addEventListener('dashlx-component-opened', () =3D&gt; { console.log("Web c=
+omponent is now visible."); });</pre>
+</div>
+</div>
+<p local-id=3D"9cf49d7f-d127-4f30-bbc9-8547d1c14614"></p>
+<p local-id=3D"d25c5a31-6830-4226-b5e7-2c92ae231b6a"><code>dashlx-session-e=
+xpired</code><br><strong>Emitted by</strong>: The component<br><strong>Purp=
+ose</strong>: Indicates the components session has expired.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">document.=
+addEventListener('dashlx-session-expired', () =3D&gt; { console.log("Web co=
+mponent session exipred."); });</pre>
+</div>
+</div>
+<p local-id=3D"d0b1adf3-5ff4-4d9f-ac69-95cc132cec54"></p>
+<p local-id=3D"b293f735-eb4b-4117-9569-289d87f475ae"><code>dashlx-redirect-=
+uri-requested</code><br><strong>Emitted by</strong>: The component<br><stro=
+ng>Purpose</strong>: Indicates the component is about to attempt a redirect=
+ to the redirect uri specified on the session. If provided, will redirect t=
+o the redirect uri specified on the component input. Client can listen to t=
+his event and implment custom redirect logic here that will run before the =
+default redirect behavior executes. This event is cancellable. The web comp=
+onent also listens for this event by registering a listener on the document=
+. Call preventDefault() on the event to prevent the web component from taki=
+ng the user to the redirect uri. Ensure your listener for this event is reg=
+istered before the cobrand component script loads to ensure your listener r=
+eceives the event first so it can be cancelled. This event also bubbles so =
+if listener priority is an issue, the listener can be registered on any ele=
+ment that is a child of document and anscestor of the cobrand component DOM=
+ element. This event is dispatched on the <code>dashlx-cobrand</code>elemen=
+t.</p>
+<p local-id=3D"65a6b7a4-2f4d-47ca-8298-d8b505fac28f"><strong>Payload:</stro=
+ng></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  userCohortStatus: "NOT_ONBOARDED" | "PARTIALLY_ONBOARDED" | "FULLY_ONBOAR=
+DED",
+  // These codes match the codes returned from the user-cohort-status endpo=
+int.
+  // They also map to the userCohortStatus respectfully
+  userCohortStatusCode: 0 | 1 | 2=20
+}</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">document.=
+addEventListener('dashlx-redirect-uri-requested', (event) =3D&gt; {=20
+  console.log("Web component is about to redirect. Going to prevent it.");=
+=20
+  event.preventDefault();
+  window.open('https://someotherdomain.com/thanksforjoining.html', "_self")
+});</pre>
+</div>
+</div>
+<hr local-id=3D"741b9fda-bfd5-449f-81fc-455a8ff05ebf">
+<h3 local-id=3D"5f6d917b-c521-4bfd-90f3-24f9cfcbe4f1" id=3D"DashLXWebCompon=
+entDocumentation-UserJourneyEvents">User Journey Events</h3>
+<p local-id=3D"61f3694d-205c-485f-899a-03977bdc9e78"><code>dashlx-flow-comp=
+leted</code><br><strong>Emitted by</strong>: The component<br><strong>Purpo=
+se</strong>: Signals the user has completed onboarding (profile, permission=
+s, consents). After this event fires the user tenant link has been created =
+and the user is ready to link a device. This always fires after a user onbo=
+ards but it does not signify that the user joined the cohort, they may alre=
+ady be in the cohort but was missing a user tenant link. To explicitly list=
+en to opt in events see the <code>dashlx-user-opted-in</code> event.</p>
+<p local-id=3D"8a7333cc-da8d-43ef-a332-7ad0c452a416"><strong>Payload:</stro=
+ng></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  emailAddress: "user@example.com",
+  userId: "user-1234"
+}</pre>
+</div>
+</div>
+<p local-id=3D"cb6cd35e-ef86-4cc1-b97a-750c98fe9d99"><strong>Note</strong>:=
+ The user remains inside the component and will now be directed to device l=
+inking. Do not assume the full journey is complete.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">document.=
+addEventListener('dashlx-flow-completed', (event) =3D&gt; { console.log("Us=
+er finished onboarding. Proceeding to device linking.", event.detail); });<=
+/pre>
+</div>
+</div>
+<p local-id=3D"34103700-67e9-457e-b9e1-16233a9ba551"></p>
+<p local-id=3D"dc35778a-fae1-49e8-bf73-3f4244657a60"><code>dashlx-user-opte=
+d-in</code><br><strong>Emitted by</strong>: The component<br><strong>Purpos=
+e</strong>: Indicates that a user has successfully linked a device.</p>
+<p local-id=3D"a50121d1-0687-40fe-bc9f-10ec5b299a15"><strong>Payload</stron=
+g>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  emailAddress: string
+  userId: UUID
+}</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">document.=
+addEventListener('dashlx-user-opted-in', (event) =3D&gt; { console.log("Use=
+r opted into cohort:", event.detail.emailAddress); });</pre>
+</div>
+</div>
+<p local-id=3D"1679b4c3-325e-4717-81be-61c972e2979b"></p>
+<p local-id=3D"b2af6d60-2604-46a3-830f-af5940453bdd"><code>dashlx-device-li=
+nked</code><br><strong>Emitted by</strong>: The component<br><strong>Purpos=
+e</strong>: Indicates that a user has successfully linked a device.</p>
+<p local-id=3D"5052e51a-0d5c-41b5-859e-706228eabb04"><strong>Payload</stron=
+g>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  vendorName: "garmin",
+  emailAddress: "user@example.com",
+  userId: "user-1234"
+}</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">document.=
+addEventListener('dashlx-device-linked', (event) =3D&gt; { console.log("Dev=
+ice linked:", event.detail); });</pre>
+</div>
+</div>
+<p local-id=3D"44e4cfff-fa18-40f3-9ee9-c5a1c89a26d4"></p>
+<p local-id=3D"b9694ebc-d381-499c-ac21-1cebfdc8d72a"><code>dashlx-cohort-me=
+mber-opt-out</code><br><strong>Emitted by</strong>: The component<br><stron=
+g>Purpose</strong>: Indicates the user has opted out of data sharing with t=
+he cohort.</p>
+<p local-id=3D"b961281a-4296-451e-b52a-3263feda47cc"><strong>Behavior</stro=
+ng>: Triggers a redirect to the configured <code>redirect_uri</code> unless=
+ immediately handled.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">document.=
+addEventListener('dashlx-cohort-member-opt-out', () =3D&gt; { console.log("=
+User opted out of cohort data sharing."); });</pre>
+</div>
+</div>
+<p local-id=3D"f92800d8-1c4b-4a49-8c9e-0cee7243c2ca"></p>
+<p local-id=3D"050bb646-7d23-4f93-9ffc-59b8167c6000"><code>dashlx-activatio=
+n-success</code><br><strong>Emitted by</strong>: The component<br><strong>P=
+urpose</strong>: Indicates the session passed to the component was valid an=
+d able to be retrieved.</p>
+<p local-id=3D"710c6b52-25c7-4455-ba95-41a623957f02"><strong>Payload:</stro=
+ng></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  userCohortStatus: "NOT_ONBOARDED" | "PARTIALLY_ONBOARDED" | "FULLY_ONBOAR=
+DED",
+  // These codes match the codes returned from the user-cohort-status endpo=
+int.
+  // They also map to the userCohortStatus respectfully
+  userCohortStatusCode: 0 | 1 | 2=20
+}</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: js; gutter: false; theme: Confluence" data-theme=3D"Confluence">document.=
+addEventListener('dashlx-activation-success', (event) =3D&gt; { console.log=
+("Session started successfully! User status code: ", event.detail.userCohor=
+tStatusCode); });</pre>
+</div>
+</div>
+<hr local-id=3D"0e0079d6-bbf0-47e6-88ba-64bcba4e183d">
+<p local-id=3D"8176678b-f8a0-4486-afce-394d552a09ce"></p>
+<p local-id=3D"6f1a661e-674b-4eaa-8d25-3e567cc8989d"></p>
+<h2 local-id=3D"5a3493b2-c101-4816-85cd-2041c923a9d9" id=3D"DashLXWebCompon=
+entDocumentation-AdditionalEndpoints">Additional Endpoints</h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1011" data-layout=3D"default" data-local-id=3D"a=
+f972d7e-3612-4a64-95b7-842f80a67607" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 184.0px;">
+<col style=3D"width: 81.0px;">
+<col style=3D"width: 745.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"c2340a92-7558-42e5-abe8-4a3ce793739a">
+<td data-local-id=3D"d133ad7a-4789-4d62-9412-489dc3ad7804" class=3D"conflue=
+nceTd">
+<div class=3D"panel" style=3D"background-color: #E6FCFF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #E6FCFF;">
+<p local-id=3D"a958c131-21b8-4598-b307-078f180974b9"><strong>POST</strong><=
+/p>
+</div>
+</div></td>
+<td colspan=3D"2" data-local-id=3D"6ca51010-03fb-4fb1-96a8-3539244de881" cl=
+ass=3D"confluenceTd">
+<div class=3D"panel" style=3D"background-color: #E6FCFF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #E6FCFF;">
+<p local-id=3D"cd4efebd-efaf-4939-830c-d5551d92cf15"><strong>/user-cohort-s=
+tatus</strong></p>
+</div>
+</div></td>
+</tr>
+<tr data-local-id=3D"be92fecb-5bc0-4622-9f94-74d7148be8aa">
+<td colspan=3D"3" data-local-id=3D"653bde59-dd9f-47a5-b78d-419d8f3022f7" cl=
+ass=3D"confluenceTd">
+<p local-id=3D"93f4b22f-a271-4036-8fbe-9ee7c92a0941"><strong>Headers</stron=
+g></p></td>
+</tr>
+<tr data-local-id=3D"56ae68a4-59bd-42d3-b2f6-9e1161a7106d">
+<td data-local-id=3D"7e1bb706-b792-4674-a2ff-5f052a32f2a8" class=3D"conflue=
+nceTd">
+<p local-id=3D"8d9b7d04-dcba-425a-902e-8c2d8f208804">Authorization</p></td>
+<td colspan=3D"2" data-local-id=3D"d2871688-6d7e-46b3-ba47-5a8da448f13a" cl=
+ass=3D"confluenceTd">
+<p local-id=3D"7ade22d3-0163-4168-9a53-98297b360031">string, A base64 encod=
+ed string of this format =E2=80=9CclientId:secret=E2=80=9D. Same authentica=
+tion mechanism as the begin-session endpoint.</p>
+<hr local-id=3D"3109ed24-4d05-4579-8497-16f67b9f279a">
+<p local-id=3D"8978ffc7-037a-405d-8873-f316e3d1e59a">Uses Basic authenticat=
+ion. Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Basic &=
+lt;base64EncodeStr(clientId:secret)&gt;</pre>
+</div>
+</div></td>
+</tr>
+<tr data-local-id=3D"ebe59e59-79e7-4bfc-96fe-998a57c62d37">
+<td colspan=3D"2" data-local-id=3D"2900b73c-8e70-4954-a7e5-d9f15cff0f72" cl=
+ass=3D"confluenceTd">
+<p local-id=3D"85b35ce2-9776-4c57-836c-41f8e3f53879"><strong>Body Parameter=
+s</strong></p></td>
+<td data-local-id=3D"18e8f8eb-ff72-47a8-a57e-ba007b03d15e" class=3D"conflue=
+nceTd">
+<p local-id=3D"cd5d4646-2214-4f96-94ce-81807114b232"></p></td>
+</tr>
+<tr data-local-id=3D"338829bc-3e04-40f3-84d8-4f1d53754de7">
+<td data-local-id=3D"b237150c-8b8d-44ad-b28f-8d8b051ac9f3" class=3D"conflue=
+nceTd">
+<p local-id=3D"fdc42b9d-c78d-4e7a-b4f2-ac8b2e0a9204">email</p></td>
+<td data-local-id=3D"6c074113-a886-405e-8301-3df5d6b5031f" class=3D"conflue=
+nceTd">
+<p local-id=3D"4684c8aa-4b84-49a8-9bcb-7445f03b30dc">string</p></td>
+<td data-local-id=3D"cd3db603-4f23-472e-94bc-067db459d59b" class=3D"conflue=
+nceTd">
+<p local-id=3D"b6dfa8b0-2f5b-4343-89da-3cbdd1eb1b92">Email of user to check=
+ status of.</p></td>
+</tr>
+<tr data-local-id=3D"d5ecc723-12c6-40e6-9c40-ea5bff8e9eb1">
+<td data-local-id=3D"3115d2b3-7701-4f92-b55e-6a03aa859c21" class=3D"conflue=
+nceTd">
+<p local-id=3D"dc21251d-0041-475d-8c35-4e2d23dd05b7">cohort</p></td>
+<td data-local-id=3D"4172756d-319e-4e5e-9953-9817f9b1228d" class=3D"conflue=
+nceTd">
+<p local-id=3D"b1ac4452-19ec-4780-90ff-764b4740f50f">string</p></td>
+<td data-local-id=3D"bde54858-63f1-424b-ba52-626cfefa9546" class=3D"conflue=
+nceTd">
+<p local-id=3D"3f24addd-5a80-4277-acb8-2855a157f362">ID of cohort to check =
+status of.</p></td>
+</tr>
+<tr data-local-id=3D"103b5862-e9ca-4586-bd2e-99d550280d71">
+<td colspan=3D"3" data-local-id=3D"8cd6a113-e1b9-4efe-b354-898622d3be7a" cl=
+ass=3D"confluenceTd">
+<p local-id=3D"64f37c35-2fb3-4eb2-afde-06231e8fd5db"><strong>Returns</stron=
+g></p></td>
+</tr>
+<tr data-local-id=3D"b080acb9-95a9-4c64-bda6-db1ed7f9817a">
+<td colspan=3D"3" data-local-id=3D"bc15caee-e1a2-4df1-83a4-0ba87aa0c737" cl=
+ass=3D"confluenceTd">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+  'result': 'success',
+  'message': 'Email not associated with cohort' | 'Email associated with co=
+hort but no device connected' | 'Email associated with cohort and has devic=
+e connected'
+  'status': 0 | 1 | 2
+}
+// status 0 if email not associated with cohort, status 1 if email is assoc=
+iated with cohort but no device, status 3 if email is associated and has co=
+nnected device.</pre>
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1011" data-layout=3D"default" data-local-id=3D"a=
+ad94252-0a88-413a-a9c1-0a9f4b4adc13" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 219.0px;">
+<col style=3D"width: 792.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"0bd2c723-30e1-415e-9ab8-24a5a9192c48">
+<td data-local-id=3D"7226c851-40c9-4612-b532-bfbaaa769b6c" class=3D"conflue=
+nceTd">
+<div class=3D"panel" style=3D"background-color: #E6FCFF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #E6FCFF;">
+<p local-id=3D"14bec881-c389-46f6-865d-5ed7551a03f9"><strong>GET</strong></=
+p>
+</div>
+</div></td>
+<td data-local-id=3D"aff6772b-a88b-4881-8ef3-ea27cfaed0d0" class=3D"conflue=
+nceTd">
+<div class=3D"panel" style=3D"background-color: #E6FCFF;border-width: 1px;"=
+>
+<div class=3D"panelContent" style=3D"background-color: #E6FCFF;">
+<p local-id=3D"c8e9a4c7-2efd-4e21-810f-423ec026cc07"><strong>/retrieve-sess=
+ion-data</strong></p>
+</div>
+</div></td>
+</tr>
+<tr data-local-id=3D"6591c3bf-a47b-4827-8072-9b2c8ef15e97">
+<td colspan=3D"2" data-local-id=3D"6e660ddf-34bf-4fa0-bdbf-fe203a8dc0e3" cl=
+ass=3D"confluenceTd">
+<p local-id=3D"dd061a08-68c3-4a08-a974-5fb43603373c"><strong>Headers</stron=
+g></p></td>
+</tr>
+<tr data-local-id=3D"d3bf8e91-70e3-4a29-9666-fe979eb39a8e">
+<td data-local-id=3D"3e712a72-ad7a-4479-963b-f86494411c27" class=3D"conflue=
+nceTd">
+<p local-id=3D"ee672a72-b316-48d6-9578-619e5e799129">Authorization</p></td>
+<td data-local-id=3D"152d6937-172a-4b18-9cfa-b42ab003c311" class=3D"conflue=
+nceTd">
+<p local-id=3D"154988d6-fb08-4d27-9751-da1d29fdede7">string</p>
+<hr local-id=3D"d7b6ea0a-bd01-4022-b811-d8cb79094d1b">
+<p local-id=3D"7f2cbda5-3f36-46e7-bb26-b6984bb3df4e">Uses Bearer authentica=
+tion. Example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">Bearer =
+&lt;sessionId&gt;</pre>
+</div>
+</div></td>
+</tr>
+<tr data-local-id=3D"84c4efc8-4696-4fb6-a5ae-1c02e058ca64">
+<td colspan=3D"2" data-local-id=3D"fc21aa0e-7eca-412e-b59a-233b9526b170" cl=
+ass=3D"confluenceTd">
+<p local-id=3D"634f5a0b-b3c7-4e3b-a504-ce5a93474217"><strong>Returns</stron=
+g></p></td>
+</tr>
+<tr data-local-id=3D"8e756244-07db-4556-af8f-3fb8a0cae24c">
+<td colspan=3D"2" data-local-id=3D"1a3c42b7-e884-4982-ba7d-e3180375cae5" cl=
+ass=3D"confluenceTd">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+   'session_id': sessionId (string),
+   'user': (User Object if existing user, else undefined),
+   'email': emailUsedToStartSession (string),
+   'cohort': (Cohort Object),
+   'tenant': (Tenant Object),
+   'cohort_member': (If cohort member exists, is equal to the cohort member=
+ permission level, int between 1-3, else undefined),
+   'cohort_member_obj': (Cohort member if exists),
+   'vendor_config': (Dictionary containing vendors and their linked status =
+ex: {"apple":false, "coros":false, "fitbit":false, "garmin":true, "polar":f=
+alse, "suunto":true})
+   'redirect_uri': (string),
+   'email_verification_required': Is true if email provided exits in our sy=
+stem, must enter a code to verify ownership of account.(bool),
+   'expires_at': (ISODate),
+   'status': session.status (string, See statuses above),
+   'available_permissions': (Array of ints, where each element represents a=
+n available permission level of the cohort. Only contains values between 1-=
+3. [1], [1,2], [1,2,3] ect...)
+}</pre>
+</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_40_1791747685.1772144776044--

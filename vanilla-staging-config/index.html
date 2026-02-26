@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla Staging Config</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #f5f5f5;
+      }
+      .launcher {
+        background: #fff;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        width: 100%;
+        max-width: 400px;
+      }
+      .launcher h1 {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+      }
+      .launcher label {
+        display: block;
+        font-size: 0.875rem;
+        margin-bottom: 0.25rem;
+        color: #333;
+      }
+      .launcher input {
+        width: 100%;
+        padding: 0.6rem 0.75rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      .launcher button {
+        width: 100%;
+        padding: 0.7rem;
+        background: #000;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      .launcher button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+      .launcher .status {
+        margin-top: 1rem;
+        font-size: 0.85rem;
+        text-align: center;
+        color: #666;
+      }
+      .launcher .error {
+        color: #c00;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="launcher" id="launcher">
+      <h1>DashLX Staging Launcher</h1>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="user@example.com" />
+      <button id="beginBtn">Begin Session</button>
+      <div class="status" id="status"></div>
+    </div>
+
+    <!-- DashLX web component (staging) -->
+    <dashlx-cobrand
+      secondaryColor="#000000"
+      redirectUri="https://calvin-7757.github.io/CobrandingComponentTest/"
+    ></dashlx-cobrand>
+
+    <script type="module" crossorigin="anonymous"
+      src="https://cobranding.staging.dashlx.com/webcomp/assets/dashlx-cobrand.js"></script>
+
+    <script>
+      const CLIENT_ID  = 'c460c44f-5b85-4552-8128-7170e757a970';
+      const SECRET     = 'dashlx-secret';
+      const COHORT_ID  = '7bf450b4-68ea-4071-abf6-4310550210c3';
+      const REDIRECT   = 'https://calvin-7757.github.io/CobrandingComponentTest/';
+      const API_BASE   = 'https://api.staging.dashlx.com/iaaa';
+
+      const emailInput = document.getElementById('email');
+      const beginBtn   = document.getElementById('beginBtn');
+      const statusEl   = document.getElementById('status');
+      const launcher   = document.getElementById('launcher');
+
+      beginBtn.addEventListener('click', async () => {
+        const email = emailInput.value.trim();
+        if (!email) {
+          statusEl.textContent = 'Please enter an email address.';
+          statusEl.classList.add('error');
+          return;
+        }
+
+        statusEl.textContent = 'Starting session…';
+        statusEl.classList.remove('error');
+        beginBtn.disabled = true;
+
+        try {
+          const res = await fetch(`${API_BASE}/begin-session`, {
+            method: 'POST',
+            headers: {
+              'Authorization': 'Basic ' + btoa(CLIENT_ID + ':' + SECRET),
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              email: email,
+              token: SECRET,
+              cohort: COHORT_ID,
+              redirect_uri: REDIRECT
+            })
+          });
+
+          if (!res.ok) {
+            throw new Error(`HTTP ${res.status}: ${await res.text()}`);
+          }
+
+          const data = await res.json();
+          const sessionId = data.session_id;
+
+          statusEl.textContent = 'Session started. Activating component…';
+          launcher.style.display = 'none';
+
+          document.dispatchEvent(
+            new CustomEvent('dashlx-activate-component', {
+              detail: { sessionId }
+            })
+          );
+        } catch (err) {
+          statusEl.textContent = err.message;
+          statusEl.classList.add('error');
+          beginBtn.disabled = false;
+        }
+      });
+
+      // Log lifecycle events for debugging
+      document.addEventListener('dashlx-activation-success', (e) => {
+        console.log('Activation success:', e.detail);
+      });
+      document.addEventListener('dashlx-session-expired', () => {
+        console.log('Session expired');
+      });
+      document.addEventListener('dashlx-flow-completed', (e) => {
+        console.log('Flow completed:', e.detail);
+      });
+    </script>
+  </body>
+</html>
